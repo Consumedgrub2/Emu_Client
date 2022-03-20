@@ -6,7 +6,7 @@ Just go to the releases tab in this repository to get the latest HTML client!
 
 # Features
 - Emulates Game Boy Advanced (GBA), Game Boy Color (GBC) w/ Original Game Boy support (GB), and Super Nintendo Entertainment System (SNES).
-- Contains the old "Gametime-player" emulator which had save stats but no support for keybindings.
+- Contains the old "Gametime-player" emulator which had save states but no support for keybindings.
 - Savestates
 - Keybindings
 - Rom Library
