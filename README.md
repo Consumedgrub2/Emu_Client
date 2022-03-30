@@ -4,6 +4,9 @@ Welcome to the new emu client! Unlike before, where you only had access to one e
 ## Installing
 Just go to the [releases tab](https://github.com/Consumedgrub2/Emu_Client/releases/latest) in this repository to get the latest HTML client!
 
+## Running
+Extract the .ZIP folder and locate the index.html file. Open it to access the client. You are also able to bookmark the files for easier opening later. Alternatively, you can jump straight to themes by opening their respective html files directly.
+
 # Features
 - Emulates Game Boy Advanced (GBA), Game Boy Color (GBC) w/ Original Game Boy support (GB), and Super Nintendo Entertainment System (SNES).
 - Contains the old "Gametime-player" emulator which had save states but no support for keybindings.
