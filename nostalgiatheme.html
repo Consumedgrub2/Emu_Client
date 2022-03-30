@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link href="WebsiteFavicon.ico" rel="shortcut icon" type="image/x-icon">
+<link href="base/jquery-ui.min.css" rel="stylesheet">
+<link href="font-awesome.min.css" rel="stylesheet">
+<link href="EmuClient.css" rel="stylesheet">
+<link href="nostalgiatheme.css" rel="stylesheet">
+<script src="jquery-3.6.0.min.js"></script>
+<script src="jquery-ui.min.js"></script>
+<script>
+function onChangeGoMenu1(){var a=document.getElementById('GoMenu1-select'),b=a.options[a.selectedIndex].value,c=a.options[a.selectedIndex].className;a.selectedIndex=0;a.blur();b&&(NewWin=window.open(b,c),window.NewWin.focus())};
+</script>
+<script>
+$(document).ready(function()
+{
+   $("#Tabs1").tabs(
+   {
+      show: false,
+      hide: false,
+      event: 'click',
+      collapsible: false
+   });
+});
+</script>
+</head>
+<body>
+<div id="Layer1" style="position:absolute;text-align:center;left:0px;right:0px;top:0px;bottom:0px;width:100%;height:100%;z-index:16;">
+<div id="Layer1_Container" style="width:1001px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
+<div id="wb_ThemeableButton1" style="position:absolute;left:182px;top:713px;width:124px;height:28px;z-index:4;">
+<a class="ui-button ui-widget ui-corner-all" id="ThemeableButton1" href="https://github.com/Consumedgrub2/Emu_Client" target="_blank" style="width:100%;height:100%;"><span class="ui-button-icon-space"> </span><span class="ui-button-icon ui-icon ui-secondary"></span>Github Repo</a></div>
+<div id="wb_ThemeableButton2" style="position:absolute;left:314px;top:713px;width:191px;height:28px;z-index:5;">
+<a class="ui-button ui-widget ui-corner-all" id="ThemeableButton2" href="https://github.com/Consumedgrub2/Emu_Client/releases/latest" target="_blank" style="width:100%;height:100%;"><span class="ui-button-icon-space"> </span><span class="ui-button-icon ui-icon ui-secondary"></span>Download Latest Client</a></div>
+<div id="wb_ThemeableButton4" style="position:absolute;left:513px;top:713px;width:124px;height:28px;z-index:6;">
+<a class="ui-button ui-widget ui-corner-all" id="ThemeableButton4" href="./romlibrary.html" target="_blank" style="width:100%;height:100%;"><span class="ui-button-icon-space"> </span><span class="ui-button-icon ui-icon ui-secondary"></span>Rom Library</a></div>
+<div id="wb_GoMenu1" style="position:absolute;left:649px;top:714px;width:191px;height:26px;z-index:7;">
+<form id="GoMenu1" role="menu">
+   <select id="GoMenu1-select" name="GoMenu1" onchange="onChangeGoMenu1()">
+      <option class="_self" value="#" selected>Select a Theme</option>
+      <option class="_self" value="./index.html" role="menuitem">Original GBA</option>
+      <option class="_self" value="./lighttheme.html" role="menuitem">Light</option>
+      <option class="_self" value="./darktheme.html" role="menuitem">Dark</option>
+      <option class="_self" value="./darkthemeorange.html" role="menuitem">Orange Dark</option>
+      <option class="_self" value="./darkthemered.html" role="menuitem">Red Dark</option>
+      <option class="_self" value="./nostalgiatheme.html" role="menuitem">Nostalgia</option>
+   </select>
+</form>
+</div>
+<div id="wb_Text2" style="position:absolute;left:649px;top:756px;width:191px;height:60px;z-index:8;">
+<span style="color:#FFFFFF;font-family:'Courier New';font-size:13px;">^This will reload the page, be sure to save any unsaved progress before you do so!</span></div>
+<div id="wb_Text3" style="position:absolute;left:182px;top:144px;width:191px;height:15px;z-index:9;">
+<span style="color:#FFFFFF;font-family:'Courier New';font-size:13px;">Cores:</span></div>
+<div id="Tabs1" style="position:absolute;left:168px;top:159px;width:662px;height:541px;z-index:10;">
+<ul>
+<li><a href="#tabs1-page-1"><span>GBA (VBA)</span></a></li>
+<li><a href="#tabs1-page-2"><span>GBA GBC GB SNES (GT)</span></a></li>
+</ul>
+<div style="height:507px;" id="tabs1-page-1">
+<iframe name="Player1" id="InlineFrame1" style="position:absolute;left:11px;top:12px;width:618px;height:426px;z-index:0;" src="https://gba.ninja" allowfullscreen></iframe>
+<div id="wb_ThemeableButton3" style="position:absolute;left:433px;top:462px;width:210px;height:28px;z-index:1;">
+<a class="ui-button ui-widget ui-corner-all" id="ThemeableButton3" href="./GBAvbFullscreen.html" target="_blank" style="width:100%;height:100%;"><span class="ui-button-icon-space"> </span><span class="ui-button-icon ui-icon ui-secondary"></span>Open in fullscreen window</a></div>
+</div>
+<div style="height:507px;" id="tabs1-page-2">
+<iframe name="Player1" id="InlineFrame2" style="position:absolute;left:11px;top:12px;width:618px;height:426px;z-index:2;" src="https://consumedgrub2.github.io/GBA_GT/" allowfullscreen></iframe>
+<div id="wb_ThemeableButton5" style="position:absolute;left:433px;top:462px;width:210px;height:28px;z-index:3;">
+<a class="ui-button ui-widget ui-corner-all" id="ThemeableButton5" href="./GBAgtFullscreen.html" target="_blank" style="width:100%;height:100%;"><span class="ui-button-icon-space"> </span><span class="ui-button-icon ui-icon ui-secondary"></span>Open in fullscreen window</a></div>
+</div>
+</div>
+<div id="wb_Text1" style="position:absolute;left:182px;top:694px;width:191px;height:15px;z-index:11;">
+<span style="color:#FFFFFF;font-family:'Courier New';font-size:13px;">Ver. 1.0 - Grub</span></div>
+</div>
+</div>
+</body>
+</html>
