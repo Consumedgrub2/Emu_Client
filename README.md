@@ -20,4 +20,5 @@ Extract the .ZIP folder and locate the index.html file. Open it to access the cl
 ## ROM Library
 As stated above, it's back! You can visit it through the client itself...
 
+#### Credit
 Credit to [GBA Ninja](https://github.com/simon-paris/gba.ninja) and [MatthewBauer](https://github.com/matthewbauer/gametime-player) for the emulator cores.
