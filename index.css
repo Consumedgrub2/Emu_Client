@@ -749,3 +749,114 @@ input:focus, textarea:focus, select:focus
    background-image: none;
    color: #FFFFFF;
 }
+#InlineFrame3
+{
+   border: 7px outset #DCDCDC;
+   border-radius: 0px;
+   margin: 0;
+}
+#ThemeableButton6
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+   display: inline-block;
+   position: relative;
+   vertical-align: middle;
+   user-select: none;
+   overflow: visible;
+   text-decoration: none;
+   cursor: pointer;
+}
+#wb_ThemeableButton6
+{
+   border-radius: 4px;
+   margin: 0;
+   vertical-align: top;
+}
+#ThemeableButton6
+{
+   box-sizing: border-box;
+   padding: 0;
+   text-align: center;
+}
+#wb_ThemeableButton6 .ui-button
+{
+   margin: 0;
+   line-height: 26px;
+}
+#ThemeableButton6
+{
+   color: #454545;
+   text-decoration: none;
+}
+#ThemeableButton6 :hover
+{
+   color: #2B2B2B;
+}
+#ThemeableButton6 :active
+{
+   color: #FFFFFF;
+}
+#wb_ThemeableButton6 .ui-secondary
+{
+   background-image: none !important;
+   text-indent: 0;
+   display: inline-block;
+   font-family: FontAwesome;
+   font-style: normal;
+   font-weight: normal;
+   line-height: 1;
+   overflow: visible;
+   position: absolute;
+   right: 8px;
+   top: 50%;
+   margin-top: -6.5px;
+   width: 13px;
+   height: 13px;
+   color: #454545;
+}
+#wb_ThemeableButton6 .ui-secondary:before
+{
+   content: "\f2d0";
+}
+#wb_ThemeableButton6:hover .ui-secondary
+{
+   color: #2B2B2B;
+}
+#wb_ThemeableButton6:active .ui-secondary
+{
+   color: #FFFFFF;
+}
+#wb_ThemeableButton6 .ui-corner-all, #wb_ThemeableButton6 .ui-corner-left
+{
+   border-bottom-left-radius: 4px;
+   border-top-left-radius: 4px;
+}
+#wb_ThemeableButton6 .ui-corner-all, #wb_ThemeableButton6 .ui-corner-right
+{
+   border-bottom-right-radius: 4px;
+   border-top-right-radius: 4px;
+}
+#wb_ThemeableButton6 .ui-button
+{
+   background-color: #F6F6F6;
+   background-image: none;
+   border: 1px solid #C5C5C5;
+   color: #454545;
+}
+#wb_ThemeableButton6 .ui-state-hover, #wb_ThemeableButton6 .ui-button:hover
+{
+   border-color: #CCCCCC;
+   background-color: #EDEDED;
+   background-image: none;
+   color: #2B2B2B;
+}
+#wb_ThemeableButton6 .ui-state-active, #wb_ThemeableButton6 .ui-button:active
+{
+   border-color: #808080;
+   background-color: #808080;
+   background-image: none;
+   color: #FFFFFF;
+}

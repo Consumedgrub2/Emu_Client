@@ -27,15 +27,15 @@ $(document).ready(function()
 </script>
 </head>
 <body>
-<div id="Layer1" style="position:absolute;text-align:center;left:0px;top:0px;width:100%;height:100%;z-index:16;">
+<div id="Layer1" style="position:absolute;text-align:center;left:0px;top:0px;width:100%;height:100%;z-index:20;">
 <div id="Layer1_Container" style="width:1001px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
-<div id="wb_ThemeableButton1" style="position:absolute;left:182px;top:713px;width:124px;height:28px;z-index:4;">
+<div id="wb_ThemeableButton1" style="position:absolute;left:182px;top:713px;width:124px;height:28px;z-index:6;">
 <a class="ui-button ui-widget ui-corner-all" id="ThemeableButton1" href="https://github.com/Consumedgrub2/Emu_Client" target="_blank" style="width:100%;height:100%;"><span class="ui-button-icon-space"> </span><span class="ui-button-icon ui-icon ui-secondary"></span>Github Repo</a></div>
-<div id="wb_ThemeableButton2" style="position:absolute;left:314px;top:713px;width:191px;height:28px;z-index:5;">
+<div id="wb_ThemeableButton2" style="position:absolute;left:314px;top:713px;width:191px;height:28px;z-index:7;">
 <a class="ui-button ui-widget ui-corner-all" id="ThemeableButton2" href="https://github.com/Consumedgrub2/Emu_Client/releases/latest" target="_blank" style="width:100%;height:100%;"><span class="ui-button-icon-space"> </span><span class="ui-button-icon ui-icon ui-secondary"></span>Download Latest Client</a></div>
-<div id="wb_ThemeableButton4" style="position:absolute;left:513px;top:713px;width:124px;height:28px;z-index:6;">
+<div id="wb_ThemeableButton4" style="position:absolute;left:513px;top:713px;width:124px;height:28px;z-index:8;">
 <a class="ui-button ui-widget ui-corner-all" id="ThemeableButton4" href="./romlibrary.html" target="_blank" style="width:100%;height:100%;"><span class="ui-button-icon-space"> </span><span class="ui-button-icon ui-icon ui-secondary"></span>Rom Library</a></div>
-<div id="wb_GoMenu1" style="position:absolute;left:649px;top:714px;width:191px;height:26px;z-index:7;">
+<div id="wb_GoMenu1" style="position:absolute;left:649px;top:714px;width:191px;height:26px;z-index:9;">
 <form id="GoMenu1" role="menu">
    <select id="GoMenu1-select" name="GoMenu1" onchange="onChangeGoMenu1()">
       <option class="_self" value="#" selected>Select a Theme</option>
@@ -48,14 +48,15 @@ $(document).ready(function()
    </select>
 </form>
 </div>
-<div id="wb_Text2" style="position:absolute;left:649px;top:756px;width:191px;height:60px;z-index:8;">
+<div id="wb_Text2" style="position:absolute;left:649px;top:756px;width:191px;height:60px;z-index:10;">
 <span style="color:#FFFFFF;font-family:'Courier New';font-size:13px;">^This will reload the page, be sure to save any unsaved progress before you do so!</span></div>
-<div id="wb_Text3" style="position:absolute;left:182px;top:144px;width:191px;height:15px;z-index:9;">
+<div id="wb_Text3" style="position:absolute;left:182px;top:144px;width:191px;height:15px;z-index:11;">
 <span style="color:#FFFFFF;font-family:'Courier New';font-size:13px;">Cores:</span></div>
-<div id="Tabs1" style="position:absolute;left:168px;top:159px;width:662px;height:541px;z-index:10;">
+<div id="Tabs1" style="position:absolute;left:168px;top:159px;width:662px;height:541px;z-index:12;">
 <ul>
 <li><a href="#tabs1-page-1"><span>GBA (VBA)</span></a></li>
 <li><a href="#tabs1-page-2"><span>GBA GBC GB SNES (GT)</span></a></li>
+<li><a href="#tabs1-page-3"><span>DS (DesuMe)</span></a></li>
 </ul>
 <div style="height:507px;" id="tabs1-page-1">
 <iframe name="Player1" id="InlineFrame1" style="position:absolute;left:11px;top:12px;width:618px;height:426px;z-index:0;" src="https://gba.ninja" allowfullscreen></iframe>
@@ -67,9 +68,14 @@ $(document).ready(function()
 <div id="wb_ThemeableButton5" style="position:absolute;left:433px;top:462px;width:210px;height:28px;z-index:3;">
 <a class="ui-button ui-widget ui-corner-all" id="ThemeableButton5" href="./GBAgtFullscreen.html" target="_blank" style="width:100%;height:100%;"><span class="ui-button-icon-space"> </span><span class="ui-button-icon ui-icon ui-secondary"></span>Open in fullscreen window</a></div>
 </div>
+<div style="height:507px;" id="tabs1-page-3">
+<iframe name="Player1" id="InlineFrame3" style="position:absolute;left:11px;top:12px;width:618px;height:426px;z-index:4;" src="https://ds.44670.org/" allowfullscreen></iframe>
+<div id="wb_ThemeableButton6" style="position:absolute;left:433px;top:462px;width:210px;height:28px;z-index:5;">
+<a class="ui-button ui-widget ui-corner-all" id="ThemeableButton6" href="./DSdesumeFullscreen.html" target="_blank" style="width:100%;height:100%;"><span class="ui-button-icon-space"> </span><span class="ui-button-icon ui-icon ui-secondary"></span>Open in fullscreen window</a></div>
 </div>
-<div id="wb_Text1" style="position:absolute;left:182px;top:756px;width:191px;height:15px;z-index:11;">
-<span style="color:#FFFFFF;font-family:'Courier New';font-size:13px;">Ver. 1.1.2 - Grub</span></div>
+</div>
+<div id="wb_Text1" style="position:absolute;left:182px;top:756px;width:191px;height:15px;z-index:13;">
+<span style="color:#FFFFFF;font-family:'Courier New';font-size:13px;">Ver. 1.2.0 - Grub</span></div>
 </div>
 </div>
 </body>
