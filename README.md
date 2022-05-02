@@ -8,7 +8,7 @@ Just go to the [releases tab](https://github.com/Consumedgrub2/Emu_Client/releas
 Extract the .ZIP folder and locate the index.html file. Open it to access the client. You are also able to bookmark the files for easier opening later. Alternatively, you can jump straight to themes by opening their respective html files directly.
 
 # Features
-- Emulates Game Boy Advanced (GBA), Game Boy Color (GBC) w/ Original Game Boy support (GB), and Super Nintendo Entertainment System (SNES).
+- Emulates Game Boy Advanced (GBA), Game Boy Color (GBC) w/ Original Game Boy support (GB), Nintendo DS (DS), and Super Nintendo Entertainment System (SNES).
 - Contains the old "Gametime-player" emulator which had save states but no support for keybindings.
 - Savestates
 - Keybindings
@@ -21,4 +21,4 @@ Extract the .ZIP folder and locate the index.html file. Open it to access the cl
 As stated above, it's back! You can visit it through the client itself...
 
 #### Credit
-Credit to [GBA Ninja](https://github.com/simon-paris/gba.ninja) and [MatthewBauer](https://github.com/matthewbauer/gametime-player) for the emulator cores.
+Credit to [GBA Ninja](https://github.com/simon-paris/gba.ninja), [MatthewBauer](https://github.com/matthewbauer/gametime-player) and [DeSume wasm](https://github.com/44670/desmume-wasm) for the emulator cores.
